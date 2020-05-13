@@ -1,0 +1,92 @@
+
+body {
+    background-image: url('http://www.vanessametonini.com.br/imersaocss/a1/img/fundo.jpg');
+    background-size: auto;
+    height: 100vh;
+    /*background: #4499ff;*/
+    font-family: Arial; /* fonte padrão do website*/
+  }
+  .frase { 
+    color: whitesmoke;
+    text-align: center;
+
+  }
+  .text {
+    color: white;
+  }
+
+// Dispositivos extra small (telefones em modo retrato, com menos de 576px)
+// Sem media query para `xs`, já que este é o padrão, no Bootstrap.
+
+// Dispositivos small (telefones em modo paisagem, com 576px ou mais)
+@media (min-width: 576px) { ... }
+
+// Dispositivos médios (tablets com 768px ou mais)
+@media (min-width: 768px) { ... }
+
+// Dispositivos large (desktops com 992px ou mais)
+@media (min-width: 992px) { ... }
+
+// Dispositivos extra large (desktops grandes com 1200px ou mais)
+@media (min-width: 1200px) { ... }
+header {
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+  font-style: italic;
+}
+.section-1 {
+  display: -webkit-flex;
+  display: flex;
+}
+nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  padding: 10px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Style the content */
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  padding: 10px;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+  .hs:link, .hs:visited, .hs:active {
+    text-decoration: none;
+    }
+    .hs:hover { 
+    color:#000; 
+    font-size:150%; 
+    }
+.ifh {
+  color: white;
+  text-align: center;
+}
+.section-3 {
+  background-image: url('http://www.vanessametonini.com.br/imersaocss/a1/img/fundo.jpg');
+}

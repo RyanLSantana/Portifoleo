@@ -95,6 +95,14 @@ footer {
 a:hover {
   text-decoration: underline;
 }
+.menu {
+  /*background-color: whitesmoke;
+  opacity: 70%;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin: 2%;*/
+  margin-top: 2%;
+}
 .menu ul {
   display: flex;
   justify-content: space-around;
@@ -103,7 +111,7 @@ a:hover {
   list-style: none;
 }
 .map {
-  margin-left: 2%;
+  opacity: 100%;
 }
 .nav1,.art1 {
   background-color: whitesmoke;
@@ -118,4 +126,14 @@ a:hover {
   margin-left: 2%;
   margin-bottom: 2%;
   opacity: 70%;
+}
+.sec3 {
+  background-color: whitesmoke;
+  opacity: 70%;
+  margin-right: 2%;
+  margin-left: 2%;
+}
+.h5 {
+  margin-right: 1%;
+  margin-left: 1%;
 }
